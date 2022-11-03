@@ -45,7 +45,7 @@ public class DBConnection {
 
             // get hold of the DriverManager
             connection = DriverManager.getConnection(
-                    "jdbc:mysql://localhost:3306/bookNookDB", "root", "");
+                    "jdbc:mysql://localhost:3306/bookNookDB", "root", "pass123");
 
         } catch (ClassNotFoundException e) {
             System.out.println("Where is your MySQL JDBC Driver?");
